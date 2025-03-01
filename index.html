@@ -10,6 +10,31 @@
   <link rel="stylesheet" href="/tailwind.config.js">
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   <title>SELHONO</title>
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+  ::selection {
+    background: #b25a59;
+    color: #F0C53E;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: blue;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #ff0000;
+    border-radius: 15px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    cursor: grab;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    cursor: grabbing;
+  }
+  </style>
 </head>
 <body class="ml-2 mr-2 sm:ml-10 sm:mr-10">
   <!--      nav       -->
